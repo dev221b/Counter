@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(90, 87, 87);
+}
+.heading{
+    color: rgb(251, 120, 146);
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 150px;
+    font-size: 30px;
+}
+.number{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-family: sans-serif;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    width: auto;
+    justify-content: space-between;
+}
+.buttons button{
+    background-color: rgba(219, 99, 123, 0.867);
+    color: rgba(250, 235, 215, 0.838);
+    border-radius: 8px;
+    height: 50px;
+    width: 400px;
+    border-color: rgba(254, 80, 115, 0.70);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color: rgb(247, 116, 142);
+}
